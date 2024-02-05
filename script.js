@@ -12,3 +12,20 @@ copy.querySelector("p").textContent = data.description;
 
 const parent = document.querySelector(".grid");
 parent.appendChild(copy);
+
+const ninjas = [
+  {
+    navn: "Cole",
+    power: "earth",
+  },
+  {
+    navn: "Zane",
+    power: "ice",
+  },
+];
+
+ninjas.forEach(doStuff);
+
+function doStuff(aNinja) {
+  console.log(aNinja.name + " has the power " + aNinja.power);
+}
