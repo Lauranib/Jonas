@@ -10,7 +10,7 @@ function showProducts(products) {
 function showProduct() {
   console.log(product);
   // Fang template
-  const template = document.querySelector("smallProductTemplate").textContent;
+  const template = document.querySelector("smallProductTemplate").content;
   // Lav en kopi
   const copy = template.cloneNode(true);
   // Ændre indhold
